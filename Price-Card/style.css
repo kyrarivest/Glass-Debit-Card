@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d3caca;
+    font-family: monserrat, sans-serif;
+}
+
+.container {
+    display: flex; /*centers card divs*/
+    justify-content: center; /*centers everything in the container*/
+    align-items: center;
+    margin-top: 200px; /*margin from top of screen*/
+
+}
+
+.card {
+    width: 230px; /* width of the div */
+    background-color: #fff;
+    padding: 5px; /*padding within the div*/
+    border-radius: 10px; /*to round the coners of th div */
+    box-shadow: 0 2px 10px black; /*gives a box shadow aorund the outside of div*/
+}
+
+.details {
+    width: 70%; /*how much of the container the details div takes up of the card div*/
+    margin: auto; /*centers everything */
+    text-align: center; /*centers text within th details div */
+    font-size: 14px;
+    font-weight: 500; /*font boldness*/
+}
+
+.package {
+    font-size: 20px;
+    line-height: 0.5;
+    font-weight: 800;
+}
+
+.price {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.dollar {
+    font-size: 20px;
+}
+
+.middle {
+    background: rgb(2,131,186);
+    background: linear-gradient(45deg, rgba(2,131,186,1) 29%, rgba(62,187,240,1) 57%);
+    color: #fff;
+    height: 370px; /*makes the middle card bigger*/
+    z-index: 1; /*brings this card to the front*/
+}
+
+.middle hr { /*the horizontal lines*/
+    color: #fff;
+}
+
+
+.card-btn {
+    width: 100%; /*will occupy the entire div (except not the set margins) */
+    font-weight: 600;
+    color: #fff; /*color of the text in the button */
+    background-color: lightblue;
+    border: 0;
+    margin: 13px 0; /*top and bottom 13px, right and left is 0px*/
+    cursor: pointer;
+    height: 30px; /*height of the button*/
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase; /*turn oeverything into upper case*/
+    font-family: inherit; /*buttons dont get the font by default, so inherit it from the body div*/
+
+}
+
+.btn-one {
+    background: rgb(2,131,186);
+    background: linear-gradient(45deg, rgba(2,131,186,1) 29%, rgba(62,187,240,1) 57%);
+
+}
+
+.btn-two {
+    background-color: rgb(228,228,228);
+    color: rgb(2,131,186);
+    color: linear-gradient(45deg, rgba(2,131,186,1) 29%, rgba(62,187,240,1) 57%);
+
+}
+
+.btn-one:hover {
+    background: rgb(2,131,186);
+    background: linear-gradient(45deg, rgb(0,26,37) 29%, rgb(3,58,82) 57%);
+}
+
+.btn-two:hover {
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 730px) { /*when the screen is 730px or less, make it have the following properties*/
+    .container {
+        flex-direction: column; /*will be in column view (default is row)*/
+    }
+    .card {
+        margin: 15px; /*put space in between the cards*/
+    }
+    .middle {
+        height: auto;
+    }
+
+}

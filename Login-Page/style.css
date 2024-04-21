@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family-Raleway:wght@500;600&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: raleway,sans-serif;
+    background-color: #3bbb46;
+    background-image: url("background-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 100vh;
+    width: 200vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    width: 420px;
+    height: 400px;
+    background-color: rgb(0,0,0,0.384);
+    border-radius: 25px;
+}
+
+img {
+    height: 80px;
+    width: 100px;
+}
+
+.form-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.form-container >div { /*means select all div elements of the parent div container*/ 
+    text-align: left;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #fff;
+    color: white;
+    height: 35px;
+    font-size: 18px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+input:focus { /*when you click on the input elements*/
+    transition: 0.5s ease-in-out;
+    border-bottom: 2px solid rgb(12,157,0);
+    outline: none;
+}
+
+input:focus ~label {
+    font-size: 28px;
+}
+
+label {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    transition: all 0.3s;
+    position: absolute;
+}
+
+button {
+    width: 60%;
+    color: white;
+    font-size: 24;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: montserrat,sans-serif;
+    height: 45px;
+    background-color: rgb(12,157,0);
+    transition: 0.5s;
+    margin-top: 45px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(12,157,0);
+}
+

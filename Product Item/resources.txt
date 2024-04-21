@@ -1,0 +1,10 @@
+Raleway Google Font
+@import url("https://fonts.googleapis.com/css2?family-Raleway:wght@500;600&display=swap");
+font-family: "Raleway",sans-serif;
+
+Font-Awesome CDN:
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/alyvl.min.css"
+integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7z1By7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+Font-Awesome Icon 
+<i class="fa solid fa-cart-shopping"></i>

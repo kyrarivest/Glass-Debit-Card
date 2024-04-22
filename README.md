@@ -28,7 +28,6 @@ Created three product shoe items that look like you can add them to a cart for p
 
 **Project 4: Login Page**
 Date: 4/21/24
-
 Created a simple login page where users enter a username and passwrood and can hit the login button.
 - Creating and styling forms (inputs, labels, form images)
 - Changing the look when user clicks to enter info (using input:focus)

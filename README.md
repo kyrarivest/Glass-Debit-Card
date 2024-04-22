@@ -27,7 +27,8 @@ Created three product shoe items that look like you can add them to a cart for p
 - Importing icons (sadly I dont think the link worked though)
 
 **Project 4: Login Page**
-Date: 4/21/24 \n
+Date: 4/21/24
+
 Created a simple login page where users enter a username and passwrood and can hit the login button.
 - Creating and styling forms (inputs, labels, form images)
 - Changing the look when user clicks to enter info (using input:focus)
@@ -36,7 +37,7 @@ Created a simple login page where users enter a username and passwrood and can h
 
 **Project 5: Green Website**
 Date: 4/21/24  
-Created a websitee page for a Green Project that is responsive to different screen sizes. Includes a hamburger menu feature that displays menu items only at a certain screen size.
+Created a website page for a Green Project that is responsive to different screen sizes. Includes a hamburger menu feature that displays menu items only at a certain screen size.
 - Made and styled a header and navigation bar
 - Used a hamburger icon and a check box wrapped in a label as a condition to show or hide the menu
 - Made the page respoonsive using @media for widths larger than 850px and larger than 1020px. At theese widths, the navigation items will become inline at the top of the page, the hamburger will not be visible, and the display will be in a grid format.

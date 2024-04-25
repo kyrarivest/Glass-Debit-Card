@@ -1,0 +1,478 @@
+/* GENERAL STYLING */
+
+/* Use colors */
+:root {
+    --color-one: #f36e26;
+    --color-two: linear-gradient(360deg, rgba(255,89,19,1) 9%, rgb(201,55,2) 87%);
+    --color-three: linear-gradient(360deg, rgb(235,76,8) 9%, rgb(71,21,3) 87%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: oswald,sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.primary {
+    color: var(--color-one);
+
+}
+
+section {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* HEADER */
+header {
+    height: 100vh;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #00000099;
+    background-blend-mode: multiply;
+}
+.name {
+    font-size: 2em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.75em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5em;
+}
+
+nav a {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+nav a:hover {
+    color: var(--color-one);
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.hero p {
+    font-size: 1.5626rem;
+    margin-top: 4em;
+
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 3rem;
+    margin-top: 0.2em;
+}
+
+h2, h3, h5 {
+    font-size: 2.7rem;
+    margin: 0.2em;
+    padding: 0.8em;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h6 {
+    font-size: 1.9rem;
+}
+
+/* BUTTONS */
+button {
+    cursor: pointer;
+
+}
+
+.btn-join {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 8em;
+    padding: 1em;
+    background: transparent;
+    color: var(--color-one);
+    border: 3px solid;
+    margin-top: 2em;
+    font-family: montserrat,sans-serif;
+    position: relative;
+}
+
+.btn-join::after {
+    content: "";
+    background: white;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-join:hover {
+    z-index: 1;
+
+}
+
+.btn-join:hover::after {
+    width: 100%;
+}
+
+/* ABOUT SECTION*/
+
+.about {
+    width: 90%;
+    margin:auto;
+}
+
+.about h6 {
+    margin-top: 2.5rem;
+}
+
+.about p {
+    font-weight: 300;
+}
+
+/* PRICE CARDS */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monserrat, sans-serif;
+}
+
+.container {
+    display: flex; /*centers card divs*/
+    justify-content: center; /*centers everything in the container*/
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 230px; /* width of the div */
+    background-color: #fff;
+    padding: 5px; /*padding within the div*/
+    border-radius: 10px; /*to round the coners of th div */
+/*     box-shadow: 0 2px 10px black;  */
+    color: #000;
+    margin: 20px auto;
+}
+
+.card p {
+    padding: 3px;
+}
+
+.details {
+    width: 80%; /*how much of the container the details div takes up of the card div*/
+    margin: auto; /*centers everything */
+    font-size: 16px;
+    font-weight: 400; /*font boldness*/
+}
+
+.package {
+    font-size: 23px;
+    font-weight: 800;
+    margin: 15px;
+}
+
+.price {
+    font-size: 33px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.dollar {
+    font-size: 20px;
+}
+
+.middle {
+    background: var(--color-one);
+    background: var(--color-two);
+    color: #fff;
+    z-index: 1; /*brings this card to the front*/
+}
+
+.middle hr { /*the horizontal lines*/
+    color: #fff;
+}
+
+
+.card-btn {
+    width: 100%; /*will occupy the entire div (except not the set margins) */
+    font-weight: 600;
+    color: #fff; /*color of the text in the button */
+    border: 0;
+    margin: 13px 0; /*top and bottom 13px, right and left is 0px*/
+    height: 30px; /*height of the button*/
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase; /*turn oeverything into upper case*/
+    font-family: inherit; /*buttons dont get the font by default, so inherit it from the body div*/
+
+}
+
+.btn-one {
+    background: var(--color-two, var(--color-one));
+}
+
+.btn-two {
+    /* background-color: rgb(228,228,228); */
+    color: var(--color-one);
+}
+
+.btn-one:hover {
+    background: var(--color-three);
+}
+
+.btn-two:hover {
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.btn-learn {
+    font-size: 1rem;
+    width: 8em;
+    height: 3em;
+    color: white;
+    border: 3px solid #fff;
+    background: transparent;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: inherit;
+    transition: 0.5s;
+}
+
+.btn-learn:hover {
+    color: var(--color-one);
+    background: #fff;
+}
+
+
+/* SERVICES */
+.services {
+    background: var(--color-two);
+
+}
+
+/* CONTACT */
+.con-icon {
+    font-size: 6em;
+    margin-top: 1em;
+}
+.contact p {
+    font-weight: 300;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.3em;
+}
+
+.footer-icon {
+    font-size: 2em;
+    margin: 0.5em;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.fa-instagram:hover {
+    color: violet;
+}
+
+.fa-twitter:hover, .fa-facebook:hover {
+    color: rgb(5,131,189);
+}
+
+
+@media (min-width:500px) {
+    nav ul {
+        justify-content: space-evenly;
+    }
+
+    .con-card {
+        width: 16em;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width:576px) {
+    .name {
+        margin-left: 0.5em;
+        font-size: 1.7em;
+        padding: 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        margin-right: 1.1em;
+    }
+
+    nav ul li {
+        margin-left: 1em;
+    }
+
+    nav ul a {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 2.5rem;
+
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2, h3, h5 {
+        font-size: 3rem;
+    }
+    
+    h4 {
+        font-size: 3.7rem;
+    }
+      
+
+}
+
+@media (min-width:768px) {
+    nav ul a {
+        font-size:  1.8rem;;
+    }
+
+    .hero p {
+        font-size: 2.6rem;
+
+    }
+
+    h1 {
+        font-size: 4.7rem;
+    }
+
+    h2, h3, h5 {
+        font-size: 3.2rem;
+    }
+    
+    h4 {
+        font-size: 3.9rem;
+    }
+    
+    .services {
+        padding: 2.5em;
+    }
+}
+
+@media (min-width:992px) {
+    nav ul {
+        margin-right: 3.1em;
+
+    }
+    .name {
+        margin-left: 2.5em
+    }
+
+    .hero p {
+        font-size: 2.8rem;
+
+    }
+
+    h1 {
+        font-size: 4.9rem;
+    }
+
+    h2, h3, h5 {
+        font-size: 3.2rem;
+    }
+    
+    h4 {
+        font-size: 4.2rem;
+        margin: 0.5em;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .about div {
+        margin: auto;
+        line-height: 2;
+    }
+
+    .about h6 {
+        margin: 0;
+    }
+    
+    .card {
+        margin: 0;
+        box-shadow: 0 2px 10px #000;
+    }
+
+    .middle {
+        height: 340px;
+    }
+
+    footer {
+        margin-top: 3em;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav, #about, .services div, #contact {
+
+        max-width: 1300px;
+        margin: auto;
+        
+
+    }
+
+}

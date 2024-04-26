@@ -47,4 +47,12 @@ Created a website page for a Green Project that is responsive to different scree
 - Made the page respoonsive using @media for widths larger than 850px and larger than 1020px. At theese widths, the navigation items will become inline at the top of the page, the hamburger will not be visible, and the display will be in a grid format.
 - Used Font-Awesome icons to add hamburger icon and social media icons in the footer
 
+**Project 6: Gym Website**
+Date: 4/21/24  
+
+Build a fully fledged website landing page for a gym. Includes a title, header section, responsive navigation bar, Join Us section, About sections, pricing section, contact us section, and footer. This project combines skills used in past projects to create a dynamic, asthetic website.
+- Implemented a favicon designed to fit the branding of the gym
+- Created and styled several sections with button hover animations, gradient backgrounds, and icon hover effects
+- Price cards have been added and restyled from the Price Card project to fit into this website
+- The page is made responsive for 5 industry-standard dimensions: 500px, 576px, 768px, 992px, and 1200px
 

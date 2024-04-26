@@ -48,11 +48,18 @@ Created a website page for a Green Project that is responsive to different scree
 - Used Font-Awesome icons to add hamburger icon and social media icons in the footer
 
 **Project 6: Gym Website**
-Date: 4/21/24  
+Date: 4/25/24  
 
-Build a fully fledged website landing page for a gym. Includes a title, header section, responsive navigation bar, Join Us section, About sections, pricing section, contact us section, and footer. This project combines skills used in past projects to create a dynamic, asthetic website.
+Built a fully fledged website landing page for a gym. Includes a title, header section, responsive navigation bar, Join Us section, About sections, pricing section, contact us section, and footer. This project combines skills used in past projects to create a dynamic, asthetic website.
 - Implemented a favicon designed to fit the branding of the gym
 - Created and styled several sections with button hover animations, gradient backgrounds, and icon hover effects
 - Price cards have been added and restyled from the Price Card project to fit into this website
 - The page is made responsive for 5 industry-standard dimensions: 500px, 576px, 768px, 992px, and 1200px
+
+**Project 7: Contact Form**
+Date: 4/26/24 
+
+Built a contact inquiry form which includes input sections fo Name, Email, Subject, Message, Subscription checkbox, and submit button with an accompanying image.
+- Styled form using input types to target differeent form components
+- The page is made responsive when screen size is decreased to less than 850px.
 

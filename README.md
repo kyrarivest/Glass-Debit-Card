@@ -63,3 +63,11 @@ Built a contact inquiry form which includes input sections fo Name, Email, Subje
 - Styled form using input types to target differeent form components
 - The page is made responsive when screen size is decreased to less than 850px.
 
+**Project 8: Number Guessing Game**
+Date: 5/19/24 
+
+Built a number guessing game in which the user will enter numbers until they guess the correct number between 1-20. Includes a highscore keeper and a reset button.
+- First JavaScript project
+- Utilizes JS DOM manipulation and basic events to operate the game
+- querySelector and eventListener
+

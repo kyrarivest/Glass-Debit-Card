@@ -71,3 +71,12 @@ Built a number guessing game in which the user will enter numbers until they gue
 - Utilizes JS DOM manipulation and basic events to operate the game
 - querySelector and eventListener
 
+**Project 9: Modal Windows**
+Date: 6/2/24 
+
+Built page with buttons that, when clicked, opens a modal window. Then, when you click the x, outside of the window, or hit the esc key, it will close the modal window
+- Utilizes JS DOM manipulation and basic events to operate
+- Stores all elements needed in the program at the top (querySelector)
+- Uses classList to add, reemove, and check existence of elements' classes
+- Uses the keyboard event to check if the esc key has beeen pressed to close the window
+
